@@ -1,1 +1,1 @@
-web: gunicorn chakraxBackend.wsgi 
+web: gunicorn chakraxBackend.wsgi
