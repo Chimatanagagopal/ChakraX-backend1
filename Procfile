@@ -1,1 +1,1 @@
-web: gunicorn chakraxBackend.wsgi --log-file -
+web: gunicorn chakraxBackend.wsgi
