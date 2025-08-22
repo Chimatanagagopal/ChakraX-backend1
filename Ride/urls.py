@@ -10,3 +10,4 @@ urlpatterns = [
     path('rides/', RideViewSet.as_view(), name='ride-list'),           # GET (list), POST (create)
     path('rides/<int:ride_id>/', RideViewSet.as_view(), name='ride-update'),  # PATCH (update rating/feedback)
 ]
+ 
